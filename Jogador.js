@@ -5,7 +5,9 @@ class Jogador{
     }
 
     atacar(){
+        
         let ataque ='';
+        
         if(this.tipo== "mago"){
             ataque = "magia";
         }else if(this.tipo == "guerreiro"){
